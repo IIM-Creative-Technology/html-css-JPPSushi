@@ -1,0 +1,25 @@
+.VoteContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 80%;
+    height: 39em;
+    background-color: brown;
+}
+.Tvote{
+    color: sandybrown;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 60px;
+}
+.Vote{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.reponse{
+    padding-top: 30px;
+    color: sandybrown;
+    font-weight: bold;
+    font-size: 1.2em;
+}

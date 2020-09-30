@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: crimson;
+}
+header, footer{
+    background: burlywood;
+    color:crimson ;
+    width: 100%;
+    padding: 20px 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: burlywood;
+}
+.nav{
+    text-decoration: none;
+    color:crimson;
+    transition: 0.5s;
+}
+a:hover{
+    color: red;
+}
+.transiNav{
+    padding-bottom: 30px;
+}
+.Container{
+    display: flex;
+    margin: auto;
+}
+h1{
+    display: flex;
+}
+.grp1{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 180vh;
+    background-image: url(../img/stonks.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.but{
+    margin: auto;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 1em 2em 1em 2em;
+    border: 0.25em solid;
+    background-color: crimson;
+    color: burlywood;
+    border-radius: 200px;
+}
+.but:hover{
+    color: bisque;
+    transition: 0.5s;
+}
+
+/*------------------MEDIA QUERIES ---------------------*/
+
+@media screen and (max-width:768px){
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .grp1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 768px;
+        background-image: url(../img/stonks.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}

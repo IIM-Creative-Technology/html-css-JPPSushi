@@ -1,0 +1,9 @@
+.ListClass{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ListClass p{
+    color: sandybrown;
+    font-weight: bold;
+}
