@@ -1,0 +1,50 @@
+.SondContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 80%;
+    height: 100em;
+    background-color: brown;
+}
+.SondTitre{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+.SondTitre h1{
+    color: sandybrown;
+}
+.titreListe{
+    font-size: 1.2em;
+    color: sandybrown;
+}
+.SondList{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5em;
+}
+.SondList a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: burlywood;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.but{
+    margin: auto;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1em 5em 1em 5em;
+    border: 0.25em solid;
+    background-color: crimson;
+    color: burlywood;
+    border-radius: 200px;
+}
+.but:hover{
+    color: bisque;
+    transition: 0.5s;
+}
+.SondList input{
+    margin-bottom: 50px;
+}
